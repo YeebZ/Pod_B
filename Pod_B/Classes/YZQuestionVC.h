@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface YZQuestionVC : ViewController
+@interface YZQuestionVC : UIViewController
 
 @end
