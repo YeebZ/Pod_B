@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Pod_B'
-  s.version          = '4.0'
+  s.version          = '2.0'
   s.summary          = 'Pod_B.'
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'Pod_B/Classes/**/*'
 
-    s.subspec Model' do |model|
+s.subspec 'Model' do |model|
     model = 'Pod_B/Classes/Model/**/*'
     model = 'Pod_B/Classes/Model/**/*.h'
 
@@ -44,5 +44,5 @@ end
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    s.dependency 'Pod_lib_test'
 end

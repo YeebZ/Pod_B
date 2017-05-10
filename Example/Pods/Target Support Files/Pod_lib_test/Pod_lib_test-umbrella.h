@@ -10,9 +10,9 @@
 #endif
 #endif
 
-#import "DepartMtRecommendVC.h"
-#import "Model.h"
+#import "User.h"
+#import "TestViewController.h"
 
-FOUNDATION_EXPORT double Pod_BVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pod_BVersionString[];
+FOUNDATION_EXPORT double Pod_lib_testVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pod_lib_testVersionString[];
 
