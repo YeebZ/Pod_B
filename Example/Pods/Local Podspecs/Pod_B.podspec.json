@@ -1,6 +1,6 @@
 {
   "name": "Pod_B",
-  "version": "2.0",
+  "version": "4.0",
   "summary": "Pod_B.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/YeebZ/Pod_B",
@@ -13,20 +13,21 @@
   },
   "source": {
     "git": "https://github.com/YeebZ/Pod_B.git",
-    "tag": "2.0"
+    "tag": "4.0"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "Pod_B/Classes/**/*",
-  "dependencies": {
-    "Pod_lib_test": [
-
+  "resource_bundles": {
+    "Pod_B": [
+      "Pod_B/Assets/*.png"
     ]
   },
-  "subspecs": [
-    {
-      "name": "Model"
-    }
-  ]
+  "public_header_files": "Pod/Classes/**/*.h",
+  "dependencies": {
+    "Pod_lib_test": [
+      "~> 3.0"
+    ]
+  }
 }

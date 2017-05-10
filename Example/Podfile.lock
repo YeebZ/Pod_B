@@ -4,11 +4,8 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - Pod_B (2.0):
-    - Pod_B/Model (= 2.0)
-    - Pod_lib_test
-  - Pod_B/Model (2.0):
-    - Pod_lib_test
+  - Pod_B (4.0):
+    - Pod_lib_test (~> 3.0)
   - Pod_lib_test (3.0):
     - Pod_lib_test/Model (= 3.0)
     - Pod_lib_test/Test (= 3.0)
@@ -25,7 +22,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  Pod_B: 50a439b1f10b73d3f34659c598e7a7b205d3f5c6
+  Pod_B: e5903702058e5bddf926d3a953cad325b6c4736a
   Pod_lib_test: 6673c9dae98b8cb2e09ffd1a5698e74c92af4b16
 
 PODFILE CHECKSUM: 4fe6df842b2f1e1e5954aa819d8cbf5c65cb3258

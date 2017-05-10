@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Pod_B'
-  s.version          = '2.0'
+  s.version          = '4.0'
   s.summary          = 'Pod_B.'
 
 # This description is used to generate tags and improve search results.
@@ -30,19 +30,20 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Pod_B/Classes/**/*'
+    s.source_files = 'Pod_B/Classes/**/*'
 
-s.subspec 'Model' do |model|
-    model = 'Pod_B/Classes/Model/**/*'
-    model = 'Pod_B/Classes/Model/**/*.h'
+#s.subspec 'Model' do |model|
+# model = 'Pod_B/Classes/Model/**/*'
+#model = 'Pod_B/Classes/Model/**/*.h'
 
-end
+#end
 
-  # s.resource_bundles = {
-  #   'Pod_B' => ['Pod_B/Assets/*.png']
-  # }
+#s.resource_bundles = {
+#  'Pod_B' => ['Pod_B/Assets/*.png']
+#}
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+#s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-    s.dependency 'Pod_lib_test'
+#s.dependency 'Pod_lib_test',:git => 'https://github.com/ahurey/Pod_lib_test.git', :tag => '0.3.0'
+s.dependency 'Pod_lib_test', '~> 3.0'
 end
