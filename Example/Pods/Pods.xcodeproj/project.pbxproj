@@ -25,8 +25,6 @@
 		91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		94B13A5D1EC307020073261F /* DepartMtRecommendVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 94B13A5B1EC307020073261F /* DepartMtRecommendVC.h */; };
 		94B13A5E1EC307020073261F /* DepartMtRecommendVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B13A5C1EC307020073261F /* DepartMtRecommendVC.m */; };
-		94B13A611EC3073A0073261F /* YZQuestionVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 94B13A5F1EC3073A0073261F /* YZQuestionVC.h */; };
-		94B13A621EC3073A0073261F /* YZQuestionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B13A601EC3073A0073261F /* YZQuestionVC.m */; };
 		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98B4CA6A39A764E76859B2696436671A /* Pods-Pod_B_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6ADFAFA8EA5E902A964B15DE898F800 /* Pods-Pod_B_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D17EDC7FEE2707ED00DDBB9B2F76B16 /* Pods-Pod_B_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAA000DE48D14D4C558FE4580E9E290 /* Pods-Pod_B_Tests-dummy.m */; };
@@ -90,8 +88,6 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94B13A5B1EC307020073261F /* DepartMtRecommendVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepartMtRecommendVC.h; sourceTree = "<group>"; };
 		94B13A5C1EC307020073261F /* DepartMtRecommendVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DepartMtRecommendVC.m; sourceTree = "<group>"; };
-		94B13A5F1EC3073A0073261F /* YZQuestionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZQuestionVC.h; sourceTree = "<group>"; };
-		94B13A601EC3073A0073261F /* YZQuestionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZQuestionVC.m; sourceTree = "<group>"; };
 		9AAC48FD7616BAA978CF4A87186F53C6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9ACA5B84A37F869CAE5CD66EDBF0F31D /* Pods-Pod_B_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Pod_B_Tests.modulemap"; sourceTree = "<group>"; };
 		9B47B0BC82DA5CEE6BBF5A5F20B42BAF /* Pods_Pod_B_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pod_B_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -257,8 +253,6 @@
 			children = (
 				94B13A5B1EC307020073261F /* DepartMtRecommendVC.h */,
 				94B13A5C1EC307020073261F /* DepartMtRecommendVC.m */,
-				94B13A5F1EC3073A0073261F /* YZQuestionVC.h */,
-				94B13A601EC3073A0073261F /* YZQuestionVC.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -378,7 +372,6 @@
 			files = (
 				553129ECD73CE539EEA5BA2FDBBA3ED9 /* Pod_B-umbrella.h in Headers */,
 				94B13A5D1EC307020073261F /* DepartMtRecommendVC.h in Headers */,
-				94B13A611EC3073A0073261F /* YZQuestionVC.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,7 +513,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94B13A621EC3073A0073261F /* YZQuestionVC.m in Sources */,
 				94B13A5E1EC307020073261F /* DepartMtRecommendVC.m in Sources */,
 				2C736C004ABEA3FC75B79DE4C1EC1BFE /* Pod_B-dummy.m in Sources */,
 			);

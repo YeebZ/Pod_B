@@ -6,7 +6,7 @@
 //  Copyright © 2017年 Dachen Tech. All rights reserved.
 //
 
-
+#import <UIKit/UIKit.h>
 @interface DepartMtRecommendVC : UIViewController
 
 @end
